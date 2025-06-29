@@ -17,7 +17,7 @@ else :
 bg_path = os.path.join(os.path.dirname(__file__), bgPath)
 
 
-font_path = r"alfont_com_29LT-Azer-Regular.otf"  # Change to your desired Arabic font
+font_path = r"Fonts/alfont_com_29LT-Azer-Regular.otf"  # Change to your desired Arabic font
 
 image = Image.open(bg_path).convert("RGB")  # Ensure RGB mode
 
